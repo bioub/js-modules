@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "moment": "^2.17.1",
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "build": "browserify js/main.js > js/bundle.js",
+    "prestart": "npm run-script build",
+    "start": "http-server"
+  }
+}
