@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "moment": "^2.17.1",
+    "normalize.css": "^5.0.0",
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "build": "r.js -o baseUrl=js paths.moment=../node_modules/moment/moment name=main out=js/bundle.js",
+    "prestart": "npm run-script build",
+    "start": "http-server"
+  }
+}
