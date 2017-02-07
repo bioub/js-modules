@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "moment": "^2.17.1",
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server"
+  }
+}
