@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "moment": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
