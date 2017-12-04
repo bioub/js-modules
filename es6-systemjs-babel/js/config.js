@@ -6,8 +6,8 @@ System.config({
   },
   transpiler: 'plugin-babel',
   packages: {
-    'js/*': {
-      defaultExtension: true
+    'js': {
+      defaultExtension: 'js'
     }
   }
 });
