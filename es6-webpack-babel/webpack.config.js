@@ -51,7 +51,7 @@ const createConfig = function(_, {mode}) {
                     // we need this for tree-shaking so the ES6 Modules are preserved
                     modules: false,
                     targets: {
-                      browsers: ['> 1% in FR']
+                      browsers: ['> 1% in FR'] // see browserlist
                     }
                   }],
                 ],
